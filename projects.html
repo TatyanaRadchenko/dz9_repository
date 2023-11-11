@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TatyanaRadchenko</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 header-txt-style">
+            Татьяна Радченко
+        </div>
+        <div class="col-8 header-style">
+            <a class="header-ref-style active-ref" href="./projects.html">Проекты</a>
+            <a class="header-ref-style" href="./index.html">Обо мне</a>
+            <a class="header-ref-style" href="./contacts.html">Контакты</a>
+        </div>
+    </div>
+        <div class="row rectangle-body">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/template.png" class="d-block carusel-size"
+                    alt="template">
+                    <!-- <img src="..." class="d-block w-100" alt="template"> -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Верстка страницы сайта по заданному шаблону</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/calc.png" class="d-block carusel-size" alt="calculator">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Калькулятор. Изучение JavaScript</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/todolist.png" class="d-block carusel-size" alt="todolist">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Список дел. Изучение Vue</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <p class="text-under-carusel">Все проекты доступны на GitHub</p>
+        </div>
+    </div>
+</body>
+
+</html>
